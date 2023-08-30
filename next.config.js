@@ -1,12 +1,14 @@
-// @ts-check
+/**
+ * @ts-check
+ * @type {import('next').NextConfig}
+ **/
 
-/** @type {import('next').NextConfig} */
 const nextConfig = {
     output: "export",
-    basePath: "/next.js",
+    basePath: "/<repository name>",
     images: {
         unoptimized: true
     }
-};
+}
 
 module.exports = nextConfig
