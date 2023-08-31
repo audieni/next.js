@@ -5,10 +5,7 @@
 
 const nextConfig = {
     output: "export",
-
-    // www.domain.tld/<repository name>
-    // use empty string if www.domain.tld
-    basePath: "/<repository name>",
+    basePath: "/next.js",
 }
 
 module.exports = nextConfig
